@@ -1,0 +1,25 @@
+
+.card__container{
+    position: relative;
+    border: 3px solid #3e4357;
+    border-radius: 10px;
+    inline-size: 350px;
+    block-size: 500px;
+    display: flex;
+    overflow: hidden;
+    margin-block-start: 30px;
+    
+    
+}
+
+
+
+.card__img{
+    min-inline-size: 100%;
+    min-block-size: 100%;
+    transition: transform .8s;
+
+}
+.card__img:hover{
+    transform: scale(1.1);
+}

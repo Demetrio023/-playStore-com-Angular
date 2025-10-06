@@ -1,0 +1,35 @@
+.cadr-pricing__container{
+    position: absolute;
+    inset-block-end: 0px ;
+    inset-inline-start: 0;
+
+    display: flex;
+    flex-direction: column;
+    
+    inline-size: 100%;
+    block-size: 70px;
+    background-color:rgba(0,0,0,0.8);
+    padding: 10px;
+    color: antiquewhite;
+    font-family: Calibri; 
+
+}
+
+.card-pricing__title{
+    margin-block-end: 3px;
+}
+
+.card-pricing__value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-pricing__value__console{
+    display: flex;
+
+    span{
+        color:aqua;
+        font-weight: bold;
+        margin-inline-end: 10px;
+    }
+}

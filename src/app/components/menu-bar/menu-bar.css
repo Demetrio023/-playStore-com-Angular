@@ -1,0 +1,60 @@
+.menu-bar__contender{
+    display: flex;
+    flex-direction:row ;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffff;
+    inline-size: 100%;
+    gap: 50px;
+    
+    block-size: 65px;
+    align-items: center;
+
+}
+.menu-bar__item{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.menu-bar__item > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+    gap: 30px;
+
+    li{
+        
+        padding: 8px;
+        margin-inline-end: 15px;
+
+
+    } 
+    a:hover{
+            color: blue;
+            font-weight: 500;
+            
+            
+        }
+    
+
+     a{
+       
+        text-decoration: none;
+        color: rgb(7,7, 7);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        font-size: 30px;
+       
+    };
+    
+}
+.menu-bar__logo img{ 
+margin-inline-start: 30px;
+display: flex;
+align-items: center;
+
+
+} 
+
+
